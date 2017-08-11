@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Евгений Давыдов](https://up.htmlacademy.ru/htmlcss/18/user/461215).
-* Наставник: (https://htmlacademy.ru/profile/id96038).
+* Наставник: [Алексей Белов](https://htmlacademy.ru/profile/id96038).
 
 ---
 
