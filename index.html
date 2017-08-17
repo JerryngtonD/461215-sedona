@@ -12,7 +12,7 @@
             <li class="menu-item"><a href="#" class="menu-item-link">Информация</a></li>
             <li class="menu-item"><a href="#" class="menu-item-link">Фото и видео</a></li>
             <li class="menu-item"><a href="#" class="menu-item-link">Карта штата</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">Гостиницы</a></li>
+            <li class="menu-item"><a href="catalog.html" class="menu-item-link">Гостиницы</a></li>
           </ul>
         </nav>
         <div class="logo">
@@ -113,37 +113,39 @@
       </div>
       <article class="map">
         <div class="map-geographical-view visually-hidden">Интерактивная карта</div>
-          <div class="browse-row">
-            <label class="browse-form-label" for="in">Дата заезда:</label>
-            <input class="browse-form-field" type="text" id="in">
-            <button class="browse-form-calendar" type="button">Календарь</button>
-          </div>
-
-          <div class="browse-row">
-            <label class="browse-form-label" for="out">Дата выезда:</label>
-            <input class="browse-form-field" type="text" id="out">
-            <button class="browse-form-calendar" type="button">Календарь</button>
-          </div>
-
-          <div class="browse-row">
-            <div class="browse-form-col">
-              <label class="browse-form-label" for="adults">Взрослые</label>
-              <div class="number">
-                <button class="button-number-minus">Минус</button>
-                <input class="number-field" type="text" id="adults">
-                <button class="button-number-plus">Плюс</button>
-              </div>
+          <form action="" method="">
+            <div class="browse-row">
+              <label class="browse-form-label" for="in">Дата заезда:</label>
+              <input class="browse-form-field" type="text" id="in">
+              <button class="browse-form-calendar" type="button">Календарь</button>
             </div>
 
-            <div class="browse-form-col">
-              <label class="browse-form-label" for="children">Дети</label>
-              <div class="number">
-                <button class="button-number-minus">Минус</button>
-                <input class="number-field" type="text" id="children">
-                <button class="button-number-plus">Плюс</button>
+            <div class="browse-row">
+              <label class="browse-form-label" for="out">Дата выезда:</label>
+              <input class="browse-form-field" type="text" id="out">
+              <button class="browse-form-calendar" type="button">Календарь</button>
+            </div>
+
+            <div class="browse-row">
+              <div class="browse-form-col">
+                <label class="browse-form-label" for="adults">Взрослые</label>
+                <div class="number">
+                  <button class="button-number-minus">Минус</button>
+                  <input class="number-field" type="text" id="adults">
+                  <button class="button-number-plus">Плюс</button>
+                </div>
+              </div>
+
+              <div class="browse-form-col">
+                <label class="browse-form-label" for="children">Дети</label>
+                <div class="number">
+                  <button class="button-number-minus">Минус</button>
+                  <input class="number-field" type="text" id="children">
+                  <button class="button-number-plus">Плюс</button>
+                </div>
               </div>
             </div>
-          </div>
+        </form>
       </article>
 
       <footer class="main-footer">
