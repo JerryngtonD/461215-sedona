@@ -10,10 +10,18 @@
       <header class="main-header">
         <nav class="main-navigation">
           <ul class="menu-list">
-            <li class="menu-item"><a href="#" class="menu-item-link">Информация</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">Фото и видео</a></li>
-            <li class="menu-item"><a href="#" class="menu-item-link">Карта штата</a></li>
-            <li class="menu-item"><a href="catalog.html" class="menu-item-link">Гостиницы</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">Информация</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">Фото и видео</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-item-link">Карта штата</a>
+            </li>
+            <li class="menu-item">
+              <a href="catalog.html" class="menu-item-link">Гостиницы</a>
+            </li>
           </ul>
         </nav>
         <div class="logo">
@@ -46,7 +54,8 @@
           </div>
 
           <div class="reason-picture">
-            <img src="img/row-1-img.png" alt="" width="800" height="256">
+            <img src="img/row-1-img.png"
+                 alt="Причины, по которым Седона лучше" width="800" height="256">
           </div>
         </div>
 
@@ -103,47 +112,50 @@
         </div>
       </section>
 
-      <div class="browse">
-        <h2 class="browse-tittle">Заинтересовались?</h2>
-        <p class="browse-info">УКАЖИТЕ ПРЕПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ
+      <div class="search">
+        <h2 class="search-tittle">Заинтересовались?</h2>
+        <p class="search-info">УКАЖИТЕ ПРЕПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ
                                ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ
         </p>
-        <button type="button"  class="button-browse-booking">Поиск гостиницы в Седоне</button>
       </div>
       <article class="map">
         <div class="map-geographical-view visually-hidden">Интерактивная карта</div>
           <form class="form provide-info" action="" method="">
-            <div class="browse-row">
-              <label class="browse-form-label" for="in">Дата заезда:</label>
-              <input class="browse-form-field" type="text" id="in">
-              <button class="browse-form-calendar" type="button">Календарь</button>
+            <h2 class="search-form-title">Поиск гостиницы в Седоне</h2>
+            <div class="search-row">
+              <label class="search-form-label" for="in">Дата заезда:</label>
+              <input class="search-form-field" type="text" id="in">
+              <button class="search-form-calendar" type="button">Календарь</button>
             </div>
 
-            <div class="browse-row">
-              <label class="browse-form-label" for="out">Дата выезда:</label>
-              <input class="browse-form-field" type="text" id="out">
-              <button class="browse-form-calendar" type="button">Календарь</button>
+            <div class="search-row">
+              <label class="search-form-label" for="out">Дата выезда:</label>
+              <input class="search-form-field" type="text" id="out">
+              <button class="search-form-calendar" type="button">Календарь</button>
             </div>
 
-            <div class="browse-row">
-              <div class="browse-form-col">
-                <label class="browse-form-label" for="adults">Взрослые</label>
+            <div class="search-row">
+              <div class="search-form-col">
+                <label class="search-form-label" for="adults">Взрослые</label>
                 <div class="number">
                   <button class="button-number-minus">Минус</button>
-                  <input class="number-field" type="text" id="adults">
+                  <input class="number-field" type="text" id="adults" pattern="[0-9]*">
                   <button class="button-number-plus">Плюс</button>
                 </div>
               </div>
 
-              <div class="browse-form-col">
-                <label class="browse-form-label" for="children">Дети</label>
+              <div class="search-form-col">
+                <label class="search-form-label" for="children">Дети</label>
                 <div class="number">
                   <button class="button-number-minus">Минус</button>
-                  <input class="number-field" type="text" id="children">
+                  <input class="number-field" type="text" id="children" pattern="[0-9]*">
                   <button class="button-number-plus">Плюс</button>
                 </div>
               </div>
             </div>
+            <label for ="search">
+            <input class="search-hotel-location" id="search" type="submit" value="Найти">
+            </label>
         </form>
       </article>
 
