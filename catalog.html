@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
@@ -25,9 +25,10 @@
         </div>
       </header>
 
-    <div class="form filter-form">
+    <main class="form filter-form">
+      <section class="hotel-filter">
       <form action="" method="">
-        <fieldset class="fielter-form-col">
+        <fieldset class="hotel-infra">
           <legend>Инфраструктура:</legend>
           <input type="checkbox" id="check1">
           <label for="check1">Бассейн</label>
@@ -39,7 +40,7 @@
           <label for="check3">WI-FI</label>
         </fieldset>
 
-        <fieldset class="fielter-form-col">
+        <fieldset class="hotel-type">
           <legend>Тип жилья:</legend>
           <input type="checkbox" id="check4">
           <label for="check4">Гостиница</label>
@@ -51,7 +52,7 @@
           <label for="check6">Апартаменты</label>
         </fieldset>
 
-        <fieldset class="fielter-form-col">
+        <fieldset class="hotel-cost">
           <legend>Стоимость в сутки(Р):</legend>
           <div class="slider-price">
             <div class="range-fields">
@@ -83,7 +84,8 @@
           <button class="check-result-button" type="submit" name="check">Показать</button>
         </fieldset>
       </form>
-    </div>
+    </section>
+    </main>
 
     <div class="catalogue-sort">
       <ul class="catalogue-sort-list">

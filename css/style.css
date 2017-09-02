@@ -164,16 +164,6 @@ a{
 }
 
 
-
-.advantage-left .reason-text,
-{
-  float: left;
-}
-
-.advantage-right .reason-text{
-  float: right;
-}
-
 .reason-blue {
   width: 33.3%;
   min-height: 148px;
@@ -208,7 +198,6 @@ a{
 
 .reason-icon {
   width: 33.3%;
-  float: left;
   padding: 60px 0 60px;
   text-align: center;
   line-height: 20px;
@@ -256,7 +245,6 @@ a{
 
 .reason-text-gray{
   width: 33.3%;
-  float: left;
   margin: 0;
   padding-top: 48px;
   text-align: center;
@@ -414,4 +402,86 @@ a{
 
 .footer-col-copyrights a:active{
   background-position: 0 -162px;
+}
+
+/* hotels */
+
+.hotel-filter {
+  background: #809cc1 url("../img/background-hotels.png") no-repeat 0 -55px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 167px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 6%;
+}
+
+.hotel-filter fieldset{
+  display: block;
+  position: relative;
+  border: none;
+  color: #fff;
+  padding: 0;
+}
+
+.hotel-filter legend{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  position: relative;
+  left: 0;
+}
+
+.hotel-infra,
+.hotel-type{
+  float: left;
+}
+
+.hotel-cost{
+  float: right;
+  margin-right: 70px;
+  width: 29%;
+  text-align: center;
+}
+
+.hotel-infra{
+  margin-right: 10%;
+}
+
+.hotel-infra label,
+.hotel-type label{
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 25px;
+}
+
+.hotel-cost legend{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.price-from-data,
+.price-to-data {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+
+.catalogue-sort ul {
+  list-style: none;
+  padding: 0 6%;
+  margin-bottom: 35px;
+}
+
+
+.catalogue-sort,
+.catalogue-sort-list,
+.catalogue-item-sort {
+  display: block;
 }
