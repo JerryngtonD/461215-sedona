@@ -410,7 +410,7 @@ a{
   background: #809cc1 url("../img/background-hotels.png") no-repeat 0 -55px;
   width: 100%;
   box-sizing: border-box;
-  min-height: 167px;
+  min-height: 217px;
   margin-top: 0;
   margin-bottom: 30px;
   padding-top: 25px;
@@ -480,8 +480,60 @@ a{
 }
 
 
-.catalogue-sort,
+.catalogue-sort h1,
 .catalogue-sort-list,
 .catalogue-item-sort {
   display: block;
+}
+
+.catalogue-sort h1{
+  margin-right: 46px;
+}
+
+.sort {
+  padding-top: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sort-title{
+  margin-right: 35px;
+}
+
+.sort-list li{
+  margin-right: 30px;
+}
+
+.sort .sort-option {
+  margin-right: 30px;
+}
+
+.catalogue-item-sort a {
+  color: #cacaca;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.catalogue-item-sort a:hover {
+  color: #81b3d2;
+}
+
+.catalogue-item-sort a:active {
+  color: #000;
+  border-bottom: none;
+}
+
+.sorting-controls {
+  float: right;
+  margin-right: 10px;
+  font-size: 23px;
+  text-align: right;
+}
+
+.sorting-controls a{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+  width: 12px;
+  height: 12px;
+  color: #ccc;
 }
