@@ -9,7 +9,7 @@ body {
   font-family: 'PT Sans', Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  min-width: 768px;
+  width: 1200px;
   color: #000;
   background-color: #f2f2f2;
 }
@@ -173,6 +173,7 @@ a{
   line-height: 18px;
   text-align: center;
   padding: 54px 0;
+  margin: 0;
 }
 
 .reason-blue h2 {
@@ -191,7 +192,7 @@ a{
 }
 
 .reason-picture{
-  width: 66.7%;
+  width: 799px;;
   margin: 0;
   height: 256px;
 }
@@ -239,7 +240,6 @@ a{
 
 /* MAIN-BOTTOM */
 .advantage-bottom{
-  margin-bottom: 60px;
   background-color: #eee;
 }
 
@@ -268,7 +268,8 @@ a{
   position: relative;
   margin: 0 auto;
   padding: 33px 0;
-  width: 568px;
+  width: 575px;
+  height: 85px;
   background-color: #766357;
   color: #fff;
   font-size: 21px;
@@ -280,7 +281,8 @@ a{
  margin-right: 20px;
  font-size: 14px;
  text-align: left;
- width: 95px;
+ border: none;
+ padding:0;
 }
 
 
@@ -295,7 +297,7 @@ a{
  font-size: 14px;
  font-weight: bold;
  text-transform: uppercase;
- border: none;
+ border: 0px;
 }
 
 /* footer */
@@ -334,7 +336,6 @@ a{
 
 
 .hashtag{
-  float: left;
   width: 33.3%;
   margin: 0 auto;
   margin-top: 10px;
@@ -344,7 +345,6 @@ a{
 
 
 .footer-col-social {
-  float: left;
   width: 33.3%;
   margin: 0 auto;
   font-size: 0;
@@ -536,4 +536,12 @@ a{
   width: 12px;
   height: 12px;
   color: #ccc;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }

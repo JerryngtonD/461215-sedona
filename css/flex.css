@@ -1,0 +1,157 @@
+/* flex-boxes */
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.menu-list {
+  width: 768;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  min-height: 57px;
+  background-color: white;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.advantage-left {
+  display: flex;
+  width: 100%;
+}
+
+.reason-picture {
+  width: 799px;
+  height:256px;
+}
+
+.advantage-right {
+  display: flex;
+  width: 100%;
+}
+
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  height:331px;
+}
+
+.advantage-bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 257px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 293px;
+  margin: 0;
+}
+
+.search-title {
+  margin-top: 59px;
+  margin-bottom: 38px;
+}
+
+.search-row {
+  background-color: white;
+}
+
+.search-form-field {
+  background-color: rgb (252,252,252);
+}
+
+.footer-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.map {
+  position: relative;
+}
+
+.provide-info {
+  padding: - 100px;
+  position: absolute;
+  width: 575px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  top: -85px;
+}
+
+.footer-col-social {
+  display: flex;
+}
+
+.footer-col-copyrights {
+  display: flex;
+  margin-right: 130px;
+}
+
+.copyrights-text {
+  width: 77px;
+  white-space: nowrap;
+  padding-top: 12px;
+}
+
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-row-button {
+  display: flex;
+}
+
+.number {
+  display: flex;
+}
+
+.number input,
+.number button {
+  width: 38px;
+  height:38px;
+}
+
+.number input {
+  border: 0px;
+  box-sizing: border-box;
+}
+
+.main-search-button input{
+  width: 458px;
+  height:58px;
+  margin-left: 56px;
+  margin-bottom: 55px;
+}
+
+.search-form-label {
+  margin-left: 55px;
+}
+
+.range-right {
+  margin-right: 58px;
+}
