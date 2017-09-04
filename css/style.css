@@ -373,7 +373,6 @@ a{
 }
 
 .footer-col-copyrights {
-  float: right;
   width: 33.3%;
   margin: 0 auto;
 }
@@ -434,21 +433,11 @@ a{
   left: 0;
 }
 
-.hotel-infra,
-.hotel-type{
-  float: left;
-}
-
 .hotel-cost{
-  float: right;
   margin-right: 70px;
-  width: 29%;
   text-align: center;
 }
 
-.hotel-infra{
-  margin-right: 10%;
-}
 
 .hotel-infra label,
 .hotel-type label{
@@ -523,7 +512,6 @@ a{
 }
 
 .sorting-controls {
-  float: right;
   margin-right: 10px;
   font-size: 23px;
   text-align: right;
