@@ -1437,3 +1437,8 @@ a.active:hover {
   color: black;
   border-bottom: 0;
 }
+
+
+.sorting-controls {
+  display: flex;
+}
