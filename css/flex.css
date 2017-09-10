@@ -204,3 +204,7 @@ flex-direction: column;
 .hotel-rate {
   margin-right: 73px;
 }
+
+.hotel-rate-text {
+  text-align: right;
+}
